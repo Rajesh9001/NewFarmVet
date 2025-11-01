@@ -9,16 +9,21 @@
         "buildType": "apk",
         "developmentClient": true,
         "distribution": "internal",
-        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b",
+        "node": "20.19.0",
+        "env": {
+          "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
+        }
       }
     },
     "production": {
       "android": {
         "buildType": "app-bundle",
-        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
-      },
-      "env": {
-        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b",
+        "node": "20.19.0",
+        "env": {
+          "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
+        }
       }
     }
   }
