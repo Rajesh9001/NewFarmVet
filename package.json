@@ -11,7 +11,7 @@
     "@babel/runtime": "^7.28.2",
     "@expo-google-fonts/playfair-display": "^0.2.3",
     "@expo/vector-icons": "^15.0.2",
-    "@react-native-async-storage/async-storage": "^1.18.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.9.13",
     "@sishuguojixuefu/react-native-office-viewer": "^0.0.5",
@@ -30,7 +30,7 @@
     "i18next-browser-languagedetector": "^8.2.0",
     "react": "19.1.0",
     "react-i18next": "^15.6.1",
-    "react-native": "0.81.4",
+    "react-native": "0.81.5",
     "react-native-communications": "^2.2.1",
     "react-native-gesture-handler": "~2.28.0",
     "react-native-image-slider": "^2.0.3",
@@ -55,11 +55,16 @@
     "@types/react": "~19.1.10",
     "@types/react-native-communications": "^2.2.1"
   },
-  "resolutions": {
-    "react-native-vector-icons": "10.0.0"
-  },
-  "engines": {
+ "engines": {
     "node": ">=20.19.0"
   },
+"overrides": {
+  "react-native-image-slider-banner": {
+    "react-native-vector-icons": "10.3.0"
+  }
+},
+"resolutions": {
+  "react-native-vector-icons": "10.3.0"
+},
   "private": true
 }
