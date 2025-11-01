@@ -1,8 +1,7 @@
 {
   "expo": {
     "name": "FarmVet",
-    "slug": "RNCourse",
-    
+    "slug": "newfarmvet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -37,7 +36,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "fc774ab8-d28d-45e5-a1d7-7b33708ee589"
+        "projectId": "91532150-556a-4d85-9e1d-bc6e9d202348"
       }
     },
     "plugins": [
@@ -50,11 +49,11 @@
             "minSdkVersion": 24,
             "googleServicesFile": "./google-services.json",
             "package": "com.rajeshsirigiri.RNCourse"
-            
           }
         }
       ],
       "expo-localization"
-    ]
+    ],
+    "owner": "rajeshsirigiri"
   }
 }
