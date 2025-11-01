@@ -29,7 +29,8 @@
         "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
         "android.permission.ACCESS_NETWORK_STATE"
       ],
-      "package": "com.rajeshsirigiri.RNCourse"
+      "package": "com.rajeshsirigiri.RNCourse",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
