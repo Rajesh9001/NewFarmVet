@@ -7,19 +7,18 @@
     "preview": {
       "android": {
         "buildType": "apk",
-        "image": "ubuntu-22.04-jdk-17-ndk-r25b",
-        "env": {
-          "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
-        }
+        "developmentClient": true,
+        "distribution": "internal",
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
       }
     },
     "production": {
       "android": {
         "buildType": "app-bundle",
-        "image": "ubuntu-22.04-jdk-17-ndk-r25b",
-        "env": {
-          "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
-        }
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
+      },
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
       }
     }
   }
